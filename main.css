@@ -5,6 +5,11 @@ header h1{
   background-color: red;
   text-align: center;
 }
+
+h2{
+  color: red;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -53,27 +58,45 @@ main {
   margin-top: 15px;
   font-weight: bold;
   color: red;
-  border: 5px solid whitesmoke;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Casino{
 margin-top: 15px;
 font-weight: bold;
 color: red;
-border: 5px solid whitesmoke;
-box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .Falloff{
 margin-top: 15px;
 font-weight: bold;
 color: red;
-width: 270px;
-padding: 3px;
-border: 5px solid whitesmoke;
-box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.img2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
+.img3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
